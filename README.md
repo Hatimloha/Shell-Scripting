@@ -147,6 +147,29 @@ Stream editor used for modifying and transforming text in files.
 sed 's/old/new/g' file.txt
 ```
 
+## Text File Editors
+
+### 1. `nano`
+A simple command-line text editor, easy to use for quick file editing.
+
+```bash
+nano script.sh
+```
+
+### 2. `vim`
+A more advanced text editor with powerful features for editing code. Requires knowledge of Vim commands.
+
+```bash
+vim script.sh
+```
+
+### 3. `gedit`
+A graphical text editor for GNOME environments, useful for editing scripts in a user-friendly interface.
+
+```bash
+gedit script.sh
+```
+
 ---
 
 Feel free to contribute by adding more commands or improving existing scripts!
