@@ -6,6 +6,6 @@
 LOG_DIR="/var/log/myapp"
 
 # Find logs older than 7 days and compress them
-find "$LOG_DIR" -type f -name "*.log" -mtime +7 -exec gzip {} 
+find "$LOG_DIR" -type f -name "*.log" -mtime +7 -exec gzip {} \;
 
-echo "Log files older than 7 days have been compressed."\;
+echo "Log files older than 7 days have been compressed."
