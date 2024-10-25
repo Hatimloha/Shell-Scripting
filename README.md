@@ -5,6 +5,8 @@
 
 This repository contains essential shell scripts for various system administration tasks, automation, and DevOps workflows. Below are some of the primary shell commands used in the scripts along with descriptions.
 
+shebang `#!/bon/bash`
+
 ## Main Shell Commands
 
 ### 1. `echo`
