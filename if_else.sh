@@ -8,3 +8,9 @@ if [ $a -gt $b ]; then
 else
     echo "b is greater than a"
 fi
+
+'''
+# Prompt the user for input
+read -p "Enter the value of a: " a
+read -p "Enter the value of b: " b
+'''
