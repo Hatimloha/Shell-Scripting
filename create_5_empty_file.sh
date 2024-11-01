@@ -1,6 +1,6 @@
-#!/in/bash
+#!/bin/bash
 
-for in i{1,5}; do
-  touch "file$1.txt"
-  echo "Created file$i.txt"
+for i in {1..5}; do
+    touch "file$i.txt"
+    echo "created file$i.txt"
 done
