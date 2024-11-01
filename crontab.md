@@ -77,6 +77,21 @@ Add the following line to schedule the script:
 
 This ensures that the script runs at 11:59 PM every night, gathering system information and emailing it to the specified email address.
 
+## Options:
+```bash
+ -u <user>  define user
+ -e         edit user's crontab
+ -l         list user's crontab
+ -r         delete user's crontab
+ -i         prompt before deleting
+ -n <host>  set host in cluster to run users' crontabs
+ -c         get host in cluster to run users' crontabs
+ -T <file>  test a crontab file syntax
+ -s         selinux context
+ -V         print version and exit
+ -x <mask>  enable debugging
+```
+
 ---
 
 ## Key Points
